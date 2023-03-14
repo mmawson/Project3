@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627543577177",
+    "project_id": "mobile-app-lab3",
+    "storage_bucket": "mobile-app-lab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627543577177:android:fbce36c2b246079aea5748",
+        "android_client_info": {
+          "package_name": "com.example.mawsonmobileproject3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627543577177-b41n5ks0dba16o7rvb9ald3i1853h3u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXTppVV2f5LTtcCt3G6_mSZPVCX2G5G7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627543577177-b41n5ks0dba16o7rvb9ald3i1853h3u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="158dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/secondContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:spinnerMode="dialog"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/poster_photo"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:scaleType="fitStart" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:singleLine="false"
+            android:ellipsize="none"
+            android:maxLines="100"
+            android:paddingLeft="5dp"
+            android:scrollHorizontally="false"
+            android:text="I am a model of a modern major general.  Please put movie description here"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_name"
+        android:textSize="20sp"
+        android:layout_weight="2"
+        android:textColor="#FF00"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_year"
+        android:layout_below="@id/movie_name"
+        android:textColor="#00ff00"/>
+</LinearLayout>
+
+
+    <!-- <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp">
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster_photo"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_name"
+            android:layout_below="@id/poster_photo"
+            android:textSize="20sp"
+            android:textColor="#FF00"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_year"
+            android:layout_below="@id/movie_name"
+            android:textColor="#00ff00"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView> -->
